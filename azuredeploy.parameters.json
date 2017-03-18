@@ -3,13 +3,13 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "newStorageAccountName": {
-      "value": "GEN-UNIQUE"
+      "value": "Storage-DCRDS-2016"
     },
     "adminUsername": {
-      "value": "azureuser"
+      "value": "RDSAdmin"
     },
     "adminPassword": {
-      "value": "GEN-PASSWORD"
+      "value": "Passw0rd!"£$"
     },
     "adVMSize": {
       "value": "Standard_DS2_v2"
@@ -21,7 +21,7 @@
       "value": "myPubIp"
     },
     "domainName": {
-      "value": "mydomain.local"
+      "value": "rds-2016.local"
     }
   }
 }
