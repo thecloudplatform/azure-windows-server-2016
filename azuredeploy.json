@@ -229,7 +229,7 @@
     "adLBFE": "LBFE",
     "adLBBE": "LBBE",
     "adPDCRDPNAT": "DC1RDPAD",
-    "adBDCRDPNAT": "DC1RDPAD",
+    "adBDCRDPNAT": "DC2RDPAD",
     "VnetID": "[resourceId('Microsoft.Network/virtualNetworks', parameters('virtualNetworkName'))]",
     "adSubnetRef": "[concat(variables('VnetID'),'/subnets/',parameters('adSubnetName'))]",
     "adPDCNicId": "[resourceId('Microsoft.Network/networkInterfaces',parameters('adPDCNicName'))]",
