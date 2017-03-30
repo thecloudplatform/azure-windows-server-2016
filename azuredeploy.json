@@ -20,7 +20,7 @@
       "metadata": {
         "description": "The type of the Storage Account created"
       },
-      "defaultValue": "Standard_LRS"
+      "defaultValue": "Premium_LRS"
     },
     "virtualNetworkName": {
       "type": "string",
